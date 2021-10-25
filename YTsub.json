@@ -1,0 +1,89 @@
+{
+  "Name": "yt sub",
+  "CreationDate": "2021-10-25",
+  "Commands": [
+    {
+      "Command": "while_v2",
+      "Target": "${!LOOP}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "open",
+      "Target": "https://www.like4like.org/user/earn-youtube-subscribe.php",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "TAB=CLOSEALLOTHER",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "/html/body/div[6]/div[2]/div[2]/div/div/div/table/tbody/tr[3]/td[1]/div/div[2]/div/span/a",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"likebutton50860\"]/a",
+        "xpath=//a[@onclick=\"startlink9eaa3('UCfBifP9BvrH3m949OJ0fXHA',\t\t\t\t\t\t\t\t\t\t\t'subscribe','1495345','50860');imageWin('https://www.youtube.com/c/mombeach','Youtube',\t\t\t\t\t\t\t\t\t\t'1495345','UCfBifP9BvrH3m949OJ0fXHA','qFtqV5xtYl6CZm9m','500','500','subscribe',\t\t\t\t\t\t\t\t\t\t\t'50860')\"]",
+        "xpath=//td/div/div[2]/div/span/a",
+        "css=#likebutton50860 > a"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "tab=1",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "/html/body/ytd-app/div/ytd-page-manager/ytd-browse/div[3]/ytd-c4-tabbed-header-renderer/tp-yt-app-header-layout/div/tp-yt-app-header/div[2]/div[2]/div/div[1]/div/div[2]/div[4]/ytd-subscribe-button-renderer/tp-yt-paper-button",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"subscribe-button\"]/ytd-subscribe-button-renderer/tp-yt-paper-button/yt-formatted-string",
+        "xpath=//ytd-subscribe-button-renderer/tp-yt-paper-button/yt-formatted-string",
+        "css=#subscribe-button > ytd-subscribe-button-renderer > tp-yt-paper-button > yt-formatted-string"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "3000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "tab=0",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "TAB=CLOSEALLOTHER",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "1000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "/html/body/div[6]/div[2]/div[2]/div/div/div/table/tbody/tr[3]/td[1]/div/a/img",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "while_v2",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}
