@@ -1,0 +1,89 @@
+{
+  "Name": "tiktok like",
+  "CreationDate": "2021-10-25",
+  "Commands": [
+    {
+      "Command": "while_v2",
+      "Target": "${!LOOP}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "open",
+      "Target": "https://www.like4like.org/user/earn-tiktok-like.php",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "/html/body/div[6]/div[2]/div[2]/div/div/div/table/tbody/tr[2]/td[1]/div/div[2]/div/span/a",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"likebutton11034\"]/a",
+        "xpath=//a[@onclick=\"imageWin('https://www.instagram.com/trucare_clinics_dubai/','Instagram',\t\t\t\t\t\t\t\t\t\t'603064','trucare_clinics_dubai','rlhpVJprYV6BaGo','1015','500','follow',\t\t\t\t\t\t\t\t\t\t\t'11034');startlinkf123c('trucare_clinics_dubai','follow','603064','11034');\"]",
+        "xpath=//td/div/div[2]/div/span/a",
+        "css=#likebutton11034 > a"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "tab=1",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "3000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "/html/body/div/div/div[2]/div[2]/div/div/main/div/div[1]/span[1]/div/div[1]/div[5]/div[2]/div[1]/div",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"react-root\"]/div/div/section/main/div/header/section/div/div/div/div/div/span/span/button",
+        "xpath=//button",
+        "css=#react-root > div > div > section > main > div > header > section > div.nZSzR > div.qF0y9.Igw0E.IwRSH.eGOV_.ybXk5._4EzTm.bPdm3 > div > div > div > span > span.vBF20._1OSdk > button"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "7000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "tab=0",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "TAB=CLOSEALLOTHER",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "5000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "tab=0",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "while_v2",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}
