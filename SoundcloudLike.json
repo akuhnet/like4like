@@ -1,0 +1,96 @@
+{
+  "Name": "soundcloud like",
+  "CreationDate": "2021-10-25",
+  "Commands": [
+    {
+      "Command": "while_v2",
+      "Target": "${!LOOP}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "!ErrorIgnore",
+      "Value": "true",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "!EXTRACT_TEST_POPUP NO",
+      "Value": "true",
+      "Description": ""
+    },
+    {
+      "Command": "open",
+      "Target": "https://www.like4like.org/user/earn-soundcloud-like.php",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "waitForPageToLoad",
+      "Target": "https://www.like4like.org/user/earn-soundcloud-like.php",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "TAB=CLOSEALLOTHER",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "/html/body/div[6]/div[2]/div[2]/div/div/div/table/tbody/tr[2]/td[1]/div/div[2]/div/span/a",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "tab=1",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "3000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "/html/body/div[1]/div[2]/div[2]/div/div[3]/div[1]/div/div[1]/div/div/div[2]/div/div/button[1]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "3000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "tab=0",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "TAB=CLOSEALLOTHER",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "5000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "while_v2",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}
